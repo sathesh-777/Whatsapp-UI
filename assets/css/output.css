@@ -691,16 +691,16 @@ video {
   margin-left: 18rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
 
 .mr-0 {
   margin-right: 0px;
+}
+
+.mr-16 {
+  margin-right: 4rem;
 }
 
 .mr-8 {
@@ -723,24 +723,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
-}
-
-.mr-16 {
-  margin-right: 4rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
-}
-
-.mr-32 {
-  margin-right: 8rem;
-}
-
-.mr-80 {
-  margin-right: 20rem;
+.mr-36 {
+  margin-right: 9rem;
 }
 
 .box-border {
@@ -1059,6 +1043,10 @@ video {
 
 .list-outside {
   list-style-position: outside;
+}
+
+.list-none {
+  list-style-type: none;
 }
 
 .appearance-none {
@@ -1808,62 +1796,6 @@ video {
   background-color: rgb(20 83 45 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/\/hero-pattern\.svg\'\)\] {
-  background-image: url('//hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/imGES\/hero-pattern\.svg\'\)\] {
-  background-image: url('/imGES/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/im\/hero-pattern\.svg\'\)\] {
-  background-image: url('/im/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/ima\/hero-pattern\.svg\'\)\] {
-  background-image: url('/ima/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/images\/hero-pattern\.svg\'\)\] {
-  background-image: url('/images/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/images\/\'\)\] {
-  background-image: url('/images/');
-}
-
-.bg-\[url\(\'images\/\'\)\] {
-  background-image: url('images/');
-}
-
-.bg-\[url\(\'\/images\/bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\]\'\)\] {
-  background-image: url('/images/bg-[url('/img/hero-pattern.svg')]');
-}
-
-.bg-\[url\(\'\/images\/C\:\\Users\\sathesh\\Documents\\cyberdudeworks\\whatsappui\\images\\whatsappbackground\.jpeg\'\)\] {
-  background-image: url('/images/C:\Users\sathesh\Documents\cyberdudeworks\whatsappui\images\whatsappbackground.jpeg');
-}
-
-.bg-\[url\(\'\/images\/Cwhatsappbackground\.jpeg\'\)\] {
-  background-image: url('/images/Cwhatsappbackground.jpeg');
-}
-
-.bg-\[url\(\'\/images\/whatsappbackground\.jpeg\'\)\] {
-  background-image: url('/images/whatsappbackground.jpeg');
-}
-
-.bg-\[url\(\'\/images\/C\:\\Users\\sathesh\\Documents\\cyberdudeworks\\whatsappui\\images\\whatsapp\.png\'\)\] {
-  background-image: url('/images/C:\Users\sathesh\Documents\cyberdudeworks\whatsappui\images\whatsapp.png');
-}
-
-.bg-\[url\(\'\/images\/whatsapp\.png\'\)\] {
-  background-image: url('/images/whatsapp.png');
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2016,10 +1948,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pr-80 {
-  padding-right: 20rem;
 }
 
 .text-left {
