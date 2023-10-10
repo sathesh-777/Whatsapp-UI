@@ -699,10 +699,6 @@ video {
   margin-right: 0px;
 }
 
-.mr-16 {
-  margin-right: 4rem;
-}
-
 .mr-8 {
   margin-right: 2rem;
 }
@@ -723,8 +719,16 @@ video {
   margin-top: 0.5rem;
 }
 
-.mr-36 {
-  margin-right: 9rem;
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .box-border {
@@ -1364,6 +1368,12 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -1948,6 +1958,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-left {
